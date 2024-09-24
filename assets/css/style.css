@@ -1,0 +1,623 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* pre nav */
+#pre-navbar{
+    padding-top: 10px;
+    background-color: white;
+}
+#pre-navbar ul{
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+}
+#pre-navbar ul li{
+    padding-left: 20px;
+}
+#pre-navbar ul li i{
+    cursor: pointer;
+}
+#pre-navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* navbar */
+.navbar .icon i{
+    margin-right: 20px;
+}
+.navbar .icon .fa-solid{
+    color: orange;
+    font-size: 24px;
+}
+
+
+/* carousel */
+
+#carouselExampleSlidesOnly .carousel-inner{
+    height: 100%;
+}
+
+#carouselExampleSlidesOnly .carousel-inner{
+  background-color: rgb(255, 255, 255);
+}
+#carouselExampleSlidesOnly h1{
+    font-size: 54px;
+    font-weight: bold;
+    
+}
+#carouselExampleSlidesOnly p{
+    color: rgb(114, 109, 109);
+}
+#carouselExampleSlidesOnly h2{
+    color: orangered;
+    font-style: italic;
+}
+#carouselExampleSlidesOnly h2 span{
+    color: rgb(161, 155, 155);
+    font-style: italic;
+    text-decoration: line-through;
+}
+#carouselExampleSlidesOnly .caro-img-1{
+    width: 350px;
+    height: 320px;
+
+}
+#carouselExampleSlidesOnly .btn{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 5px;
+}
+#carouselExampleSlidesOnly .caro-img-1 img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#carouselExampleSlidesOnly .caro-img-2{
+    width: 600px;
+    height: 300px;
+}
+#carouselExampleSlidesOnly .caro-img-2 img{
+    width: 100%;
+    height: 100%;
+}
+#carouselExampleSlidesOnly .caro-img-11{
+    width: 350px;
+    height: 420px;
+
+}
+#carouselExampleSlidesOnly .caro-img-11 img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#carouselExampleSlidesOnly .caro-img-111{
+    width: 350px;
+    height: 420px;
+
+}
+#carouselExampleSlidesOnly .caro-img-111 img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+/* poat carousel */
+
+.post-carousel{
+    background-color: rgb(255, 255, 255);
+}
+.post-carousel{
+
+}
+.post-carousel .image{
+    width: 500px;
+    height: auto;
+}
+.post-carousel .image img{
+    width: 100%;
+    height: auto;
+}
+/* trending-watch */
+
+#trending-watch{
+   background-color: white;
+}
+
+#trending-watch h2{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+#trending-watch .card .card-body .card-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#trending-watch .card {
+    width: 261px;
+    height: auto;
+    transition: 0.6s;
+    position: relative;
+}
+
+#trending-watch .card .card-body  p{
+    font-size: 13px;
+}
+
+#trending-watch .card:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+    0px 0px 10px rgb(0, 0, 0);
+    transition: 0.6s;
+    .fa-heart{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+#trending-watch .fa-heart{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+}
+#trending-watch .fa-heart{
+    font-size: 20px;
+    color: orangered;
+}
+#trending-watch p{
+    color: rgb(116, 110, 110);
+}
+#trending-watch h5 span{
+    text-decoration: line-through;
+    color: rgb(116, 110, 110);
+}
+
+/* ------client section------ */
+#client{
+    background-color: white;
+    /* height: 200px; */
+}
+#client h2{
+
+}
+
+.img-fluid{
+    max-width: 100px;
+    height: 70px;
+    display: inline-block;
+    padding: 15px 0;
+    
+}
+#skill{
+    background-color: #f7f7f7;
+}
+
+.skill-img{
+    width: 100%;
+    height: 400px;
+}
+
+.skill-title{
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.skill-info{
+    color: rgb(109, 106, 106);
+    word-spacing: 2px;
+
+}
+#skill .btn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.discount-product{
+    overflow-x: hidden;
+}
+
+.country-list h3{
+    font-size: 18px;
+    text-align: center;
+}
+.country-list img{
+    justify-content: center;
+}
+
+#onsell .card:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+    0px 0px 10px rgb(0, 0, 0);
+    transition: 0.6s;
+    .fa-heart{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    .fa-plus{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+#onsell .fa-heart{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+}
+
+#onsell .fa-plus{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+}
+
+#onsell .fa-plus{
+    font-size: 20px;
+    color: orangered;
+}
+#onsell .fa-heart{
+    font-size: 20px;
+    color: orangered;
+}
+#onsell p{
+    color: rgb(116, 110, 110);
+}
+#onsell h5 span{
+    text-decoration: line-through;
+    color: rgb(116, 110, 110);
+}
+
+#hotsell .card:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+    0px 0px 10px rgb(0, 0, 0);
+    transition: 0.6s;
+    .fa-heart{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    .fa-plus{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+#hotsell .fa-heart{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+}
+
+#hotsell .fa-plus{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+}
+
+#hotsell .fa-plus{
+    font-size: 20px;
+    color: orangered;
+}
+#hotsell .fa-heart{
+    font-size: 20px;
+    color: orangered;
+}
+#hotsell p{
+    color: rgb(116, 110, 110);
+}
+#hotsell h5 span{
+    text-decoration: line-through;
+    color: rgb(116, 110, 110);
+}
+
+#trend .card:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+    0px 0px 10px rgb(0, 0, 0);
+    transition: 0.6s;
+    .fa-heart{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    .fa-plus{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+#trend .fa-heart{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+}
+
+#trend .fa-plus{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+}
+
+#trend .fa-plus{
+    font-size: 20px;
+    color: orangered;
+}
+#trend .fa-heart{
+    font-size: 20px;
+    color: orangered;
+}
+#trend p{
+    color: rgb(116, 110, 110);
+}
+#trend h5 span{
+    text-decoration: line-through;
+    color: rgb(116, 110, 110);
+}
+
+#bestsell .card:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+    0px 0px 10px rgb(0, 0, 0);
+    transition: 0.6s;
+    .fa-heart{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    .fa-plus{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+#bestsell .fa-heart{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+}
+
+#bestsell .fa-plus{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+}
+
+#bestsell .fa-plus{
+    font-size: 20px;
+    color: orangered;
+}
+#bestsell .fa-heart{
+    font-size: 20px;
+    color: orangered;
+}
+#bestsell p{
+    color: rgb(116, 110, 110);
+}
+#bestsell h5 span{
+    text-decoration: line-through;
+    color: rgb(116, 110, 110);
+}
+
+
+
+
+#most-viewed .card:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+    0px 0px 10px rgb(0, 0, 0);
+    transition: 0.6s;
+    .fa-heart{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+#most-viewed .fa-heart{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+}
+#most-viewed .fa-heart{
+    font-size: 20px;
+    color: orangered;
+}
+
+#country{
+    background-color: rgb(226, 226, 226);
+    padding: 20px 0px;
+    margin-top: 10px;
+}
+
+.btn-primary{
+    background: #eb6a2a !important ;
+    border: none !important;
+}
+.btn-primary:hover{
+    background: rgb(99, 165, 99) !important ;
+}
+.btn-success{
+    margin-top: 100px;
+    background: #eb6a2a !important ;
+    border: none !important;
+    transform:rotate(270deg);
+    font-size: 15px;
+    width: 130px;
+}
+.btn-info{
+    background: #eb6a2a !important ;
+    border: none !important;
+}
+#footer .imp-lit,.paras{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+}
+#footer .imp{
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+#footer .ital{
+    font-style: italic;
+}
+#footer-bottam{
+    background-color: black;
+  
+  }
+  .footer-bottom{
+    display: flex;
+    justify-content: space-around;
+  }
+  .copyright{ 
+  
+  }
+  .credits{
+   color: white;
+  }
+  
+  .footer-bottom .copyright{
+    color: white;
+  }
+  
+  .credits a{
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .credits a:hover{
+    color: #00bfff;
+    font-weight: bold;
+  }
+
+@media  screen and (min-width: 0px) and (max-width: 320px) {
+    #pre-navbar{
+        display: none;
+    }
+    #carouselExampleSlidesOnly h1{
+        font-size: 34px; 
+    }
+    #carouselExampleSlidesOnly .caro-img-1{
+        width: 250px;
+        height: 300px;
+    
+    }
+    #carouselExampleSlidesOnly .btn{
+        font-size: 8px;
+        padding: 5px;
+    }
+    #carouselExampleSlidesOnly .caro-img-2{
+        width: 300px;
+        height: 300px;
+    }
+    #carouselExampleSlidesOnly .caro-img-11{
+        width: 270px;
+        height: 320px;
+    
+    }
+    #carouselExampleSlidesOnly .caro-img-111{
+        width: 270px;
+        height: 340px;
+    
+    }
+    .post-carousel .image{
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media  screen and (min-width: 320px) and (max-width: 480px) {
+    #pre-navbar{
+        display: none;
+    }
+    #carouselExampleSlidesOnly h1{
+        font-size: 34px; 
+    }
+    #carouselExampleSlidesOnly .caro-img-1{
+        width: 250px;
+        height: 300px;
+    
+    }
+    #carouselExampleSlidesOnly .btn{
+        font-size: 9px;
+        padding: 5px;
+    }
+    #carouselExampleSlidesOnly .caro-img-2{
+        width: 300px;
+        height: 300px;
+    }
+    #carouselExampleSlidesOnly .caro-img-11{
+        width: 270px;
+        height: 320px;
+    
+    }
+    #carouselExampleSlidesOnly .caro-img-111{
+        width: 270px;
+        height: 340px;
+    
+    }
+    .post-carousel .image{
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media  screen and (min-width:481px) and (max-width:768px) {
+    #pre-navbar{
+        display: none;
+    }
+
+} 
+
+
+@media  screen and (min-width:769px)and(max-width:1024px) {
+    #pre-navbar{
+        display: none;
+    }
+} 
+
+
+@media  screen and (min-width:1025px)and(max-width:1200px) {
+    
+} 
+
+
+<img src="https://demo.xpeedstudio.com/marketov2/watch/wp-content/uploads/sites/14/2018/10/1-min-300x300.jpg" alt="4K Projector">
+
